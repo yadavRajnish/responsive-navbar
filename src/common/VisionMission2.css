@@ -1,0 +1,28 @@
+.vision-mission-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; /* Ensure the section takes the full viewport height */
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .image-section {
+    height: 100%;
+  }
+  
+  .parallax-container .parallaxie {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .tab-content {
+    padding: 0 20px;
+  }
+  

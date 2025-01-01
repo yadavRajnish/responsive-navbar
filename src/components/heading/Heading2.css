@@ -1,0 +1,29 @@
+.text-container {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .text-with-underline {
+    font-size: 40px;
+    font-weight: 700;
+    color: #d4af5f; /* Set your desired text color */
+    font-weight: bold;
+  }
+  
+  .text-with-underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px; /* Adjust this value to position the underline */
+    width: 0;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #d4af5f; /* Set your desired underline color */
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .text-container:hover .text-with-underline::after {
+    width: 100%;
+    left: 0;
+  }
+  

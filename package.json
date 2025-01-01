@@ -1,0 +1,45 @@
+{
+  "name": "rdbgroup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "countup.js": "^2.8.0",
+    "gsap": "^3.12.5",
+    "leaflet": "^1.9.4",
+    "next": "^14.2.5",
+    "nodemailer": "^6.9.16",
+    "parallax-js": "^3.1.0",
+    "rdbgroup": "file:",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.2.1",
+    "react-leaflet": "^4.2.1",
+    "react-scroll-parallax": "^3.4.5",
+    "react-spring": "^9.7.4",
+    "react-spring-3d-carousel": "^1.3.4",
+    "react-tooltip": "^5.27.1",
+    "sharp": "^0.33.4",
+    "splitting": "^1.1.0",
+    "swiper": "^8.4.6",
+    "swiper-react": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/parallax-js": "^3.1.3",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  }
+}
